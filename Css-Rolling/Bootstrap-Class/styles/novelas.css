@@ -1,0 +1,29 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: #B4A5FA;
+}
+
+h1{
+    background-color: #E0B35E;
+}
+
+.card{
+    width: 18rem;
+}
+
+.imgCard{
+    width: 270px;
+    height: 350px;
+}
+
+.cardWA2{
+    border: 3px solid #8199FC;
+}

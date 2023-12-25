@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.color1 {color: #120907;}
+.color2 {color: #122536;}
+.color3 {color: #145b7e;}
+.color4 {color: #1f99d1;}
+.color5 {color: #20d8d8;}
+
+
+nav{
+    height: 7vh;
+    font-family: "pangram-medium",sans-serif;
+    font-size: 16px;
+}
+
+.btn{
+    width: 150px;
+    background-color: #20d8d8;
+}
+
+.btn:hover{
+    background-color: #D99DE3;
+}
+
+.imgCarousel{
+    height: 60vh;
+    width: 80vw;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Croissant One', cursive;
+    border: 3px solid #D99DE3;
+    background-color: #F0E453;
+    width: 450px;
+}
+
+aside{
+    max-width: 25vw;
+}
+
+.card{
+    margin-top: 0;
+    height: 500px;
+    width: 400px;
+}
+
+.btnCard{
+    width: 220px;
+}
+
+.imgCardCategoria{
+    height: 320px;
+    
+}
+
+.cardSuelta{
+    height: 240px;
+    width: 240px;
+}
+
+.card-body a{
+    color:black;
+}
+
+
+
+li a:hover{
+    background-color: #1f99d1;
+}
+
+
+
+

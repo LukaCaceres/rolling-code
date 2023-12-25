@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg d-flex justify-content-evenly"> <!--position-sticky top-0 start-0-->
+            <div class="container-fluid">
+              
+              <div class="itemsNavBar">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="/pages/index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/pages/index.html">Carrito</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#footer">About us</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Contactanos
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                          <li><a class="dropdown-item" href="#">Instagram</a></li>
+                          <li><a class="dropdown-item" href="#">Twitter</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+              
+
+              <div class="navegacion">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+
+              <!--CONTENEDOR DE LOS BOTONES-->
+              <div class="buttons d-flex justify-content-around">
+                <button type="button" class="btn  rounded-pill mx-5">Login</button>
+                <button type="button" class="btn  rounded-pill me-5">Registro</button>
+              </div>
+            </div>
+        </nav>
+      
+        
+        
+    </header>
+
+    <main>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/assets/images/carrousel1.webp" class="d-block w-100 imgCarousel" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/images/carrousel1.webp" class="d-block w-100 imgCarousel" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/images/carrousel1.webp" class="d-block w-100 imgCarousel" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+              
+            </button>
+        </div>
+        
+        <div class="d-flex justify-content-center m-2">
+            <h1 class="text-center m-4 p-3 rounded-pill">Ecommerce</h1>
+        </div>
+        <section class="sectionPadre m-4 p-3 d-flex">
+            <aside class="columnaFiltros d-flex flex-column p-3 text-center ">
+                <form action="">
+                    <label for="">Ordenar por</label>
+                    <select name="" id="">
+                        <option value="">Todos</option>
+                        <option value="">Mayor precio</option>
+                        <option value="">Menor precio</option>
+                        <option value="">Mas nuevos</option>
+                        <option value="">Mas antiguos</option>
+                        <option value="">Mayor kilometraje</option>
+                        <option value="">Menor kilometraje</option>
+                    </select>
+                    <br>
+                    <input type="checkbox" name="sample" id="">
+                    <label for="">sample</label>
+                    <br>
+                    <input type="checkbox" name="sample" id="">
+                    <label for="">sample</label>
+                    <br>
+                    <input type="checkbox" name="sample" id="">
+                    <label for="">sample</label>
+                    <br>
+                    <input type="checkbox" name="sample" id="">
+                    <label for="">sample</label>
+                </form>
+            </aside>
+            
+            <div class="principal">
+
+                <h2 class="text-center mb-4">Categorias</h2>
+                <section class="sectionCategorias d-flex justify-content-evenly">
+                    <div class="card mx-5 mb-5 rounded-4 border-warning ">
+                        <img src="/assets/images/heladera.jpg" class="imgCardCategoria card-img-top rounded-top-4" alt="...">
+                        <div class="card-body text-center">
+                          <h4 class="card-title fw-bold">Frigorificos</h4>                     
+                          <a href="#" class="btnCard btn btn-warning rounded-pill fs-3 p-2 mt-3 fw-normal">Ver más</a>
+                        </div>
+                    </div>
+
+                    <div class="card mx-5 mb-5 rounded-4 border-warning ">
+                        <img src="/assets/images/cocina.webp" class="imgCardCategoria card-img-top rounded-top-4" alt="...">
+                        <div class="card-body text-center">
+                          <h4 class="card-title fw-bold">Cocina</h4>                     
+                          <a href="#" class="btnCard btn btn-warning rounded-pill fs-3 p-2 mt-3 fw-normal">Ver más</a>
+                        </div>
+                    </div>
+
+                    <div class="card mx-5 mb-5 rounded-4 border-warning ">
+                        <img src="/assets/images/lavarropas.webp" class="imgCardCategoria card-img-top rounded-top-4" alt="...">
+                        <div class="card-body text-center">
+                          <h4 class="card-title fw-bold">Lavarropas</h4>                     
+                          <a href="#" class="btnCard btn btn-warning rounded-pill fs-3 p-2 mt-3 fw-normal">Ver más</a>
+                        </div>
+                    </div>
+
+                      
+                </section>
+
+
+
+                <h2 class="text-center mb-4">Productos</h2>
+                <section class="sectionCardSueltas d-flex justify-content-evenly flex-wrap">
+                    <div class="cardSuelta text-center p-3">
+                        <img src="assets/images/heladera.jpg" class="imgCardSuelta card-img-top w-75" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Heladera</h5>
+                          
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+
+                  
+                </section>
+            </div>
+            
+           
+                
+                
+
+
+                
+                
+                
+               
+        </section>
+        
+        
+
+        
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

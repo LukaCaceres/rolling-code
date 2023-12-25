@@ -1,0 +1,84 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    
+    margin: 0;
+}
+
+nav{
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+h1{
+    font-family: 'Croissant One', cursive;
+    border: 3px solid #D99DE3;
+    background-color: #F0E453;
+    width: 450px;
+    
+}
+
+
+nav li{
+    padding: 12px; 
+    font-style: oblique;
+    
+   
+}
+
+nav li:hover{
+    background-color: #D99DE3;
+}
+
+.dropdown-item:hover{
+    background-color: #D99DE3;
+}
+
+.imgCarousel{
+    height: 60vh;
+    width: 80vw;
+    margin: auto;
+}
+
+.carousel-control-prev{
+    width: 9vw;   
+}
+.carousel-control-next{
+    width: 9vw;   
+}
+
+h2{
+    font-family: 'Croissant One', cursive;
+    border: 3px solid #D99DE3;
+    background-color: #F0E453;
+    width: 300px;
+    margin: 30px;
+}
+
+.card{
+    border: 3px solid #D99DE3;
+}
+
+.btn{
+    background-color: #F0E453;
+}
+
+.btn:hover{
+    background-color: #F8964A;
+}
+
+h3{
+    font-family: 'Croissant One', cursive;
+}
+footer{
+    
+    background-color: #636060;  
+    margin: auto;
+    
+}
+
+a{
+    text-decoration: none;
+}

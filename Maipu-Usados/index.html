@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Maipu Usados</title>
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-black">
+
+            <!--CONTENEDOR DE TODO EL NAV-->
+            <div class="container-fluid d-flex justify-content-between"> <!--SE APLICA FLEXBOX AQUI, SIENDO LOS OTROS 3 CONTENEDORES LOS ITEMS-->
+              <!--CONTENEDOR DE LA IMAGEN-->
+              <div class="imgContainer w-25">
+                    <a class="navbar-brand" href="#">
+                        <img class=" p-3 ms-5" width="150" height="75" src="https://maipuusados.com.ar/wp-content/uploads/sites/5/2021/08/MaipuUsados.svg" alt="maipuUsados">
+                    </a>
+              </div>                         
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!--CONTENEDOR DE LOS LI -->
+              <div class="collapse navbar-collapse me-0" id="navbarNav">
+                <ul class="navbar-nav d-flex justify-content-end w-100">
+                  <li class="nav-item m-1">
+                    <a class="nav-link text-warning " href="#">¿CÓMO FUNCIONA?</a>
+                  </li>
+                  <li class="nav-item m-1">
+                    <a class="nav-link text-warning" href="#">¿POR QUÉ MAIPÚ?</a>
+                  </li>
+                  <li class="nav-item m-1">
+                    <a class="nav-link text-warning" href="#">INSPECCIÓN</a>
+                  </li>
+                  <li class="nav-item m-1">
+                    <a class="nav-link text-warning" href="#">FINANCIACIÓN</a>
+                  </li>
+                  <li class="nav-item m-1">
+                    <a class="nav-link text-warning">CONTACTO</a>
+                  </li>
+                
+                </ul>
+              </div>
+              <!--CONTENEDOR DE LOS BOTONES-->
+              <div class="buttons d-flex justify-content-around">
+                <button type="button" class="btn btn-warning rounded-pill mx-5">COMPRA</button>
+                <button type="button" class="btn btn-warning rounded-pill me-5">VENDE</button>
+              </div>
+              
+            </div>
+          </nav>
+      
+    </header>
+
+    <main class="d-flex justify-content-around">
+        <aside class="columnaFiltros d-flex flex-column p-3 text-center">
+            <form action="">
+                <label for="">Ordenar por</label>
+                <select name="" id="">
+                    <option value="">Todos</option>
+                    <option value="">Mayor precio</option>
+                    <option value="">Menor precio</option>
+                    <option value="">Mas nuevos</option>
+                    <option value="">Mas antiguos</option>
+                    <option value="">Mayor kilometraje</option>
+                    <option value="">Menor kilometraje</option>
+                </select>
+            </form>
+        </aside>
+
+        <section class="cardSection d-flex flex-wrap justify-content-evenly">
+            <div class="card mx-5 mb-5 rounded-4 border-white">
+                <img src="https://maipuusados.com.ar/wp-content/uploads/sites/5/2023/09/APC_8744-1600x1200-1.jpg" class="card-img-top rounded-top-4" alt="...">
+                <div class="card-body text-center">
+                  <h4 class="card-title fw-bold">Jeep Renegade</h4>
+                  <h5 class="fw-normal">2021</h5>
+                  <h5 class="fw-normal">Automatica</h5>
+                  <h5 class="fw-normal">22.080 km</h5>
+                  <h4 class="fw-normal">Proximamente</h4>
+                  <a href="#" class="btnCard btn btn-warning rounded-pill fs-3 p-2 mt-3 fw-normal">Ver más</a>
+                </div>
+              </div>
+
+              <div class="card mx-5 mb-5 rounded-4 border-white">
+                <img src="https://maipuusados.com.ar/wp-content/uploads/sites/5/2023/09/APC_8744-1600x1200-1.jpg" class="card-img-top rounded-top-4" alt="...">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Jeep Renegade</h4>
+                  <h5>2021</h5>
+                  <h5>Automatica</h5>
+                  <h5>22.080 km</h5>
+                  <h4>Proximamente</h4>
+                  <a href="#" class="btn btn-warning rounded-pill">Ver más</a>
+                </div>
+              </div>
+
+
+              <div class="card mx-5 mb-5 rounded-4 border-white">
+                <img src="https://maipuusados.com.ar/wp-content/uploads/sites/5/2023/09/APC_8744-1600x1200-1.jpg" class="card-img-top rounded-top-4" alt="...">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Jeep Renegade</h4>
+                  <h5>2021</h5>
+                  <h5>Automatica</h5>
+                  <h5>22.080 km</h5>
+                  <h4>Proximamente</h4>
+                  <a href="#" class="btn btn-warning rounded-pill">Ver más</a>
+                </div>
+              </div>
+
+
+              <div class="card mx-5 mb-5 rounded-4 border-white">
+                <img src="https://maipuusados.com.ar/wp-content/uploads/sites/5/2023/09/APC_8744-1600x1200-1.jpg" class="card-img-top rounded-top-4" alt="...">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Jeep Renegade</h4>
+                  <h5>2021</h5>
+                  <h5>Automatica</h5>
+                  <h5>22.080 km</h5>
+                  <h4>Proximamente</h4>
+                  <a href="#" class="btn btn-warning rounded-pill">Ver más</a>
+                </div>
+              </div>
+
+
+              <div class="card mx-5 mb-5 rounded-4 border-white">
+                <img src="https://maipuusados.com.ar/wp-content/uploads/sites/5/2023/09/APC_8744-1600x1200-1.jpg" class="card-img-top rounded-top-4" alt="...">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Jeep Renegade</h4>
+                  <h5>2021</h5>
+                  <h5>Automatica</h5>
+                  <h5>22.080 km</h5>
+                  <h4>Proximamente</h4>
+                  <a href="#" class="btn btn-warning rounded-pill">Ver más</a>
+                </div>
+              </div>
+
+
+              <div class="card mx-5 mb-5 rounded-4 border-white">
+                <img src="https://maipuusados.com.ar/wp-content/uploads/sites/5/2023/09/APC_8744-1600x1200-1.jpg" class="card-img-top rounded-top-4" alt="...">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Jeep Renegade</h4>
+                  <h5>2021</h5>
+                  <h5>Automatica</h5>
+                  <h5>22.080 km</h5>
+                  <h4>Proximamente</h4>
+                  <a href="#" class="btn btn-warning rounded-pill">Ver más</a>
+                </div>
+              </div>
+
+
+           
+
+
+              
+
+              
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html

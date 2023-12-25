@@ -1,0 +1,53 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: #B4A5FA;
+}
+
+h1{
+    background-color: #E0B35E;
+}
+
+aside{
+    
+    width: 8vw;
+    height: 40vh;
+}
+
+aside a{
+    text-decoration: none;
+}
+
+.card{
+    width: 18rem;
+}
+
+
+
+.imgCard{
+    width: 270px;
+    height: 270px;
+}
+
+.cardHaku{
+    border: 3px solid #D5F4AE;
+}
+.cardElina{
+    border: 3px solid #FAA5AB;
+
+}
+
+.cardAtuy{
+    border: 3px solid #E0B35E;
+}
+
+.cardBeato{
+    border: 3px solid rgb(228, 213, 76);
+}

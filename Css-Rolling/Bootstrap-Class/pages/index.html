@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="shortcut icon" href="/images/bcrazy.png" type="image/x-icon">
+    <title>VNDB</title>
+</head>
+<body class="bg-dark-subtle text-emphasis-dark">
+
+    <!-- ----------------------------------------------------------------------
+                            
+                                NAVBAR SECTION
+    
+    ----------------------------------------------------------------------- -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/images/bcrazy.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-center">
+                VNDB
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="/pages/index.html">Home</a>
+              <a class="nav-link" href="/pages/novelas.html">Novelas</a>
+              <a class="nav-link" href="/pages/personajes.html">Personajes</a>
+              <a class="nav-link" href="/pages/ost.html">Soundtrack</a>
+              
+            </div>
+          </div>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+
+    <h1 class="p-3 mt-3 mb-3 text-center text-white">VNDB</h1>
+
+
+    <!-- ----------------------------------------------------------------------
+                            
+                                CAROUSEL SECTION
+    
+    ----------------------------------------------------------------------- -->
+
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/Captura de pantalla 2023-03-22 212326.png" class="d-block imgCarousel" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/EXTRA2-HEADER_1024x1024_waifu2x_art_noise3_scale_waifu2x_noise0_scale4x.png" class="d-block imgCarousel" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/theganga.png" class="d-block imgCarousel" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- ----------------------------------------------------------------------
+                            
+                                TAB SECTION
+    
+    ----------------------------------------------------------------------- -->
+
+
+    <main class="d-flex justify-content-center">
+
+        <section class="tableSection m-3">
+            <table class="table text-center">
+                <thead>
+                  <tr>
+                    <th>Novela</th>
+                    <th>Developer</th>
+                    <th>Calificacion</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>White Album 2</td>
+                    <td>Leaf</td>
+                    <td>10</td>
+                  </tr>      
+                  <tr class="success">
+                    <td>Utawarerumono</td>
+                    <td>Leaf</td>
+                    <td>9</td>
+                  </tr>
+                  <tr class="danger">
+                    <td>Umineko</td>
+                    <td>07th Expansion</td>
+                    <td>10</td>
+                  </tr>
+                  <tr class="info">
+                    <td>Sabbat of the Witch</td>
+                    <td>Yuzusoft</td>
+                    <td>10</td>
+                  </tr>
+                  <tr class="warning">
+                    <td>Riddle Joker</td>
+                    <td>Yuzusoft</td>
+                    <td>8</td>
+                  </tr>
+                  <tr class="active">
+                    <td>Rewrite</td>
+                    <td>Key</td>
+                    <td>8</td>
+                  </tr>
+                  <tr>
+                    <td>White Album 2</td>
+                    <td>Leaf</td>
+                    <td>10</td>
+                  </tr>      
+                  <tr class="success">
+                    <td>Utawarerumono</td>
+                    <td>Leaf</td>
+                    <td>9</td>
+                  </tr>
+                  <tr class="danger">
+                    <td>Umineko</td>
+                    <td>07th Expansion</td>
+                    <td>10</td>
+                  </tr>
+                  <tr class="info">
+                    <td>Sabbat of the Witch</td>
+                    <td>Yuzusoft</td>
+                    <td>10</td>
+                  </tr>
+                  <tr class="warning">
+                    <td>Riddle Joker</td>
+                    <td>Yuzusoft</td>
+                    <td>8</td>
+                  </tr>
+                  <tr class="active">
+                    <td>Rewrite</td>
+                    <td>Key</td>
+                    <td>8</td>
+                  </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+    
+</body>
+</html>

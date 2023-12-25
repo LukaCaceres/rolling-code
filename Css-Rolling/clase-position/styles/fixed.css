@@ -1,0 +1,34 @@
+body{
+    min-height: 200vh;
+    overflow-y: scroll;
+}
+.imagenWsp{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.imagenHaruchin{
+    height: 400px;
+    width: 400px;
+    
+    
+}
+
+.cantRunAway{
+    border: 2px dashed pink;
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    position: fixed;
+}
+
+
+
+
+

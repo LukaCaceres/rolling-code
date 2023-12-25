@@ -1,0 +1,30 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: #B4A5FA;
+}
+
+h1{
+    background-color: #E0B35E;
+    
+}
+
+
+
+.table{
+    width: 90vw;
+    
+}
+
+.imgCarousel{
+    height: 60vh;
+    width: 80vw;
+    margin: auto;
+}
